@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style type="text/css">
+body {
+	font-family: arial;
+}
+
+table {
+	border: 1px solid #ccc;
+	width: 80%;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 auto;
+}
+
+table tr {
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+
+table th, table td {
+	padding: 10px;
+	text-align: center;
+}
+
+table th {
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 1px;
+	background-color: #50C2FF;
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+	table {
+		border: 0;
+	}
+	table thead {
+		display: none;
+	}
+	table tr {
+		margin-bottom: 10px;
+		display: block;
+		border-bottom: 2px solid #ddd;
+	}
+	table td {
+		display: block;
+		text-align: right;
+		font-size: 13px;
+		border-bottom: 1px dotted #ccc;
+	}
+	table td:last-child {
+		border-bottom: 0;
+	}
+	table td:before {
+		content: attr(data-label);
+		float: left;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+}
+
+.note {
+	max-width: 80%;
+	margin: 0 auto;
+}
+</style>
+</head>
+
+<body>
+	<h1 style="color: green;">购买成功</h1>
+	<table>
+		<tr>
+			<td>订单编号: ${out_trade_no }</td>
+		</tr>
+		<td>支付宝交易号: ${trade_no }</td>
+		<tr>
+		</tr>
+		<td>实付金额: ${total_amount }</td>
+		<tr>
+		</tr>
+		<td>购买产品：${productName }</td>
+		</tr>
+	</table>
+</body>
+
+</html>
+
+

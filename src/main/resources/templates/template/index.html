@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.table4_12 table {
+	width:100%;
+	margin:15px 0;
+	border:0;
+}
+.table4_12 th {
+	background-color:#50C2FF;
+	color:#FFFFFF
+}
+.table4_12,.table4_12 th,.table4_12 td {
+	font-size:0.95em;
+	text-align:center;
+	padding:4px;
+	border-collapse:collapse;
+}
+.table4_12 th,.table4_12 td {
+	border: 1px solid #9bdcfe;
+	border-width:1px 0 1px 0
+}
+.table4_12 tr {
+	border: 1px solid #9bdcfe;
+}
+.table4_12 tr:nth-child(odd){
+	background-color:#c4eafe;
+}
+.table4_12 tr:nth-child(even){
+	background-color:#fdfdfd;
+}
+</style>
+</head>
+<body>
+	<!-- <table>
+		<tr>
+			<td>产品编号</td>
+			<td>产品名称</td>
+			<td>产品价格</td>
+			<td>操作</td>
+		</tr>
+		<#list pList as item>
+		<tr>
+			<td>${item.id }</td>
+			<td>${item.name }</td>
+			<td>${item.price }</td>
+			<td><a href="../alipay/goConfirm?productId=${item.id }">购买</a></td>
+		</tr>
+		</#list>
+	</table> -->
+	
+	<table class=table4_12>
+	  <tr>
+	   <th>产品编号</th>
+			<th>产品名称</th>
+			<th>产品价格</th>
+			<th>操作</th>
+     </tr>
+     	<#list pList as item>
+		<tr>
+			<th>${item.id }</th>
+			<th>${item.name }</th>
+			<th>${item.price }</th>
+			<th><a href="../alipay/goConfirm?productId=${item.id }">购买</a></th>
+		</tr>
+		</#list>
+	</table>
+	<input type="hidden" id="hdnContextPath" name="hdnContextPath"
+		value=".." />
+</body>
+<script src="/static/js/jquery.min.js" type="text/javascript"></script>
+</html>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+
+		var hdnContextPath = $("#hdnContextPath").val();
+
+	});
+</script>
+
