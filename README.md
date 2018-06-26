@@ -21,7 +21,6 @@ springboot-weixin-alipay是基于springboot2.0+freemarker+mybatis+druid实现了
 
 3. 安装教程
 
-
 - 配置好sql文件
 - 启动SpringbootWeixinAliApyApplication即可
 
