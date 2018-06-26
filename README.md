@@ -10,7 +10,7 @@ springboot-weixin-alipay是基于springboot2.0+freemarker+mybatis+druid实现了
 2. 软件架构
 软件架构说明
 
-![输入图片说明](https://gitee.com/uploads/images/2018/0626/231212_d09f5b56_1951565.jpeg "WechatIMG50.jpg")
+![输入图片说明](https://gitee.com/uploads/images/2018/0626/234330_868e2086_1951565.jpeg "WechatIMG52.jpg")
 
 功能图解：
 
@@ -34,8 +34,6 @@ springboot-weixin-alipay是基于springboot2.0+freemarker+mybatis+druid实现了
 1. 微信支付
 1. 提交支付
 1. 二维码支付
-1. 
-
 
 5. 使用说明
 
