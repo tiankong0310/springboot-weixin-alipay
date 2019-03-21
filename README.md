@@ -2,7 +2,7 @@
 
 1. 项目介绍
 
-springboot-weixin-alipay通用商城(小程序,微信,app,网站)支付项目是基于springboot2.0+freemarker+mybatis+druid实现了支付宝，微信支付功能，用户列表,商品列表,选择购买,提交订单,扫码支付,订单表单提交支付功能.已使用支付项目地址：https://gitee.com/WiliamWang/my-shop 
+springboot-weixin-alipay通用商城(小程序,微信,app,网站)支付项目是基于springboot2.0+freemarker+mybatis+druid实现了支付宝，微信支付功能，用户列表,商品列表,选择购买,提交订单,扫码支付,订单表单提交支付功能.已使用支付项目地址：https://gitee.com/tiankong0310/my-shop.git
 
 
 官方QQ群:685261895 欢迎大家fork,star
@@ -46,7 +46,7 @@ springboot-weixin-alipay通用商城(小程序,微信,app,网站)支付项目是
 
 qq官方群1:685261895 （如有问题，请联系，小天qq：2366307000） 感谢！
 
-git：https://gitee.com/WiliamWang/my-shop
+git：https://gitee.com/tiankong0310/my-shop.git
 
 https://gitee.com/WiliamWang/springboot-weixin-alipay
 
